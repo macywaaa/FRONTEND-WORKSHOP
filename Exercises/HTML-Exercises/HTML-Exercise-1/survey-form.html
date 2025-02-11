@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+
+    <form action="">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text"  id="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required>
+        </div><br>
+
+        <p>Please rate your satisfaction with our service:</p>
+        <input type="radio" name="satisfaction" value="Poor" required> Poor 
+        <input type="radio" name="satisfaction" value="Fair"> Fair 
+        <input type="radio" name="satisfaction" value="Good"> Good 
+        <input type="radio" name="satisfaction" value="Very Good"> Very Good 
+        <input type="radio" name="satisfaction" value="Excellent"> Excellent <br><br>
+
+        <p>Which features of our service do you like? (Select all that apply):</p>
+        <input type="checkbox" name="features" value="Customer Support"> Customer Support <br>
+        <input type="checkbox" name="features" value="Ease of Use"> Ease of Use <br>
+        <input type="checkbox" name="features" value="Pricing"> Pricing <br>
+        <input type="checkbox" name="features" value="Speed"> Speed <br>
+        <input type="checkbox" name="features" value="Reliability"> Reliability <br><br>
+
+        <button 
+        type="submit"
+        onclick="confirm('Thank you for filling up the form')"
+        >
+        Submit
+    
+        </button>
+    </form>
+    
+</body>
+</html>
