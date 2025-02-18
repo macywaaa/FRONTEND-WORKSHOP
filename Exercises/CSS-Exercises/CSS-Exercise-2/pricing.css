@@ -1,1 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background-color: rgb(176, 176, 220);
+}
+
+h1{
+    color: rgb(37, 37, 86);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pricing-container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  
+}
+
+.pricing-card{
+    background-color: rgb(195, 220, 242);
+    margin-right: 100px;
+    height: 30vh;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(92, 92, 146);
+}
+
+.pricing-header{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.price{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 13px;
+}
+
+.feature-list{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.cta-button {
+    margin: 30px auto 0 auto; /* Centers horizontally */
+    display: block;
+    width: 200px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(48, 4, 39);
+
+    background-color: rgb(72, 72, 124);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(112, 112, 212);
+    box-shadow: 0px 4px 10px rgba(174, 180, 255, 0.3);
+}
